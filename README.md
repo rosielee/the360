@@ -1,24 +1,24 @@
-# nuxt-boilerplate
+# RL 360
 
 ### Install npm:
 
-```npm i```
+`npm i`
 
 ### rename env file
 
-change root file ```Sampleenv``` to ```.env```
+change root file `Sampleenv` to `.env`
 
 ### To start dev server locally:
 
-  ```npm run dev```
+`npm run dev`
 
-  ### To build & start for production:
+### To build & start for production:
 
-  for static:
+for static:
 
     npm run generate
 
-  for server(node)
+for server(node)
 
     npm run build
 

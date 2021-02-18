@@ -15,13 +15,13 @@ export default {
   ** See https://nuxtjs.org/api/configuration-head
   */
   head: {
-    title: process.env.npm_package_name || '',
+    title: 'Rosie Lee 360',
     meta: [
       ...createSEOMeta({
-        title: 'insert title here',
+        title: 'Rosie Lee 360',
         description:
-          'insert description here',
-        image: '[Insert_NarutoDose_Image_URL]',
+          'A 360 Space by Rosie Lee',
+        image: process.env.HOST_NAME + '/icon.png',
         url: process.env.HOST_NAME,
       }),
     ],
